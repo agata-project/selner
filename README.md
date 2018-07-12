@@ -1,5 +1,7 @@
 # Agata Project - Selner
 
+[![Build Status](https://travis-ci.org/agata-project/selner.svg?branch=master)](https://travis-ci.org/agata-project/selner)
+
 ## Description
 
 Frontent do site da Semana da Computação.
