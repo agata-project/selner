@@ -1,0 +1,39 @@
+{
+  "name": "selner",
+  "description": "",
+  "contributors": [{
+      "name": "Carlos Eduardo Cuzik",
+      "email": "carlos.cuzik@gmail.com",
+      "url": "http://github.com/cuzik"
+    },
+    {
+      "name": "Marcos Felipe Eipper",
+      "email": "marcos@eipper.com",
+      "url": "http://github.com/markx3"
+    },
+    {
+      "name": "Matheus Vinícius Valenza",
+      "email": "matheusvvalenza@gmail.com",
+      "url": "http://github.com/mathvalenza"
+    },
+    {
+      "name": "Ramon Artner Rocha",
+      "email": "ramon.artner@gmail.com",
+      "url": "http://github.com/rartner"
+    }
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
