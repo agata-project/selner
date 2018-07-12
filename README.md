@@ -2,7 +2,7 @@
 
 ## Description
 
-Frontent do site da semana da computação.
+Frontent do site da Semana da Computação.
 
 ## Motivation
 
