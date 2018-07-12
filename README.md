@@ -4,7 +4,7 @@
 
 ## Description
 
-Frontent do site da Semana da Computação.
+Frontend do site da Semana da Computação.
 
 ## Motivation
 
