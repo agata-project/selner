@@ -1,6 +1,7 @@
 # Agata Project - Selner
 
 [![Build Status](https://travis-ci.org/agata-project/selner.svg?branch=master)](https://travis-ci.org/agata-project/selner)
+[![Ebert](https://ebertapp.io/github/agata-project/selner.svg)](https://ebertapp.io/github/agata-project/selner)
 
 ## Description
 
