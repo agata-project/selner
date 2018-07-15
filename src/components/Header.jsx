@@ -15,12 +15,12 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import { withStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const styles = {
   appBar: {
     backgroundColor: "#EEE",
-    color: "#000000",
-    flexGrow: 1
+    color: "#000000"
   },
   udescColor: {
     color: "#0a9854"
@@ -61,29 +61,35 @@ class Header extends React.Component {
           Bem vindo, fudido!
         </Typography>
         <Divider />
-        <ListItem button>
-          <ListItemIcon>
-            <Icon style={styles.udescColor}>
-              <i class="fa fa-chalkboard-teacher" />
-            </Icon>
-          </ListItemIcon>
-          <ListItemText primary="Palestras" />
-        </ListItem>
+        <Link to="/talks" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemIcon>
+              <Icon style={styles.udescColor}>
+                <i class="fa fa-chalkboard-teacher" />
+              </Icon>
+            </ListItemIcon>
+            <ListItemText primary="Palestras" />
+          </ListItem>
+        </Link>
         <Divider />
-        <ListItem button>
-          <ListItemIcon>
-            <Icon className={classes.udescColor}>event</Icon>
-          </ListItemIcon>
-          <ListItemText primary="Eventos" />
-        </ListItem>
+        <Link to="/events" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemIcon>
+              <Icon className={classes.udescColor}>event</Icon>
+            </ListItemIcon>
+            <ListItemText primary="Eventos" />
+          </ListItem>
+        </Link>
         <Divider />
-        <ListItem button>
-          <ListItemIcon>
-            <Icon className={classes.udescColor}>school</Icon>
-          </ListItemIcon>
-          <ListItemText primary="Cursos" />
-        </ListItem>
-        <Divider />
+        <Link to="/courses" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemIcon>
+              <Icon className={classes.udescColor}>school</Icon>
+            </ListItemIcon>
+            <ListItemText primary="Cursos" />
+          </ListItem>
+          <Divider />
+        </Link>
         <ListItem button>
           <ListItemIcon>
             <Icon style={styles.udescColor}>exit_to_app</Icon>
@@ -117,9 +123,7 @@ class Header extends React.Component {
           >
             <MenuIcon />
           </IconButton>
-          <Typography className={classes.flex} variant="title">
-            Selner Talks
-          </Typography>
+          <Typography variant="title">Selner Talks</Typography>
         </Toolbar>
       </AppBar>
     );
