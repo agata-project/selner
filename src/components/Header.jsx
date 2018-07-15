@@ -34,6 +34,9 @@ const styles = {
   },
   menuList: {
     width: 250
+  },
+  menuItem: {
+    textDecoration: "none"
   }
 };
 
@@ -61,7 +64,7 @@ class Header extends React.Component {
           Bem vindo, fudido!
         </Typography>
         <Divider />
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/" className={classes.menuItem}>
           <ListItem button>
             <ListItemIcon>
               <Icon style={styles.udescColor}>home</Icon>
@@ -70,7 +73,7 @@ class Header extends React.Component {
           </ListItem>
         </Link>
         <Divider />
-        <Link to="/talks" style={{ textDecoration: "none" }}>
+        <Link to="/talks" className={classes.menuItem}>
           <ListItem button>
             <ListItemIcon>
               <Icon style={styles.udescColor}>
@@ -81,7 +84,7 @@ class Header extends React.Component {
           </ListItem>
         </Link>
         <Divider />
-        <Link to="/events" style={{ textDecoration: "none" }}>
+        <Link to="/events" className={classes.menuItem}>
           <ListItem button>
             <ListItemIcon>
               <Icon className={classes.udescColor}>event</Icon>
@@ -90,7 +93,7 @@ class Header extends React.Component {
           </ListItem>
         </Link>
         <Divider />
-        <Link to="/courses" style={{ textDecoration: "none" }}>
+        <Link to="/courses" className={classes.menuItem}>
           <ListItem button>
             <ListItemIcon>
               <Icon className={classes.udescColor}>school</Icon>

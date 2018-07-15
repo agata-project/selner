@@ -8,8 +8,6 @@ import Courses from "./components/Courses";
 import Events from "./components/Events";
 import Talks from "./components/Talks";
 
-// import "./router/index";
-
 ReactDOM.render(
   <Router>
     <div>
