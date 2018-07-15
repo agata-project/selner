@@ -77,7 +77,7 @@ class Header extends React.Component {
           <ListItem button>
             <ListItemIcon>
               <Icon style={styles.udescColor}>
-                <i class="fa fa-chalkboard-teacher" />
+                <i className="fa fa-chalkboard-teacher" />
               </Icon>
             </ListItemIcon>
             <ListItemText primary="Palestras" />
