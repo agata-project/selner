@@ -1,8 +1,5 @@
-import React from "react";
-import Header from "./Header";
-import { withStyles } from "@material-ui/core";
-
-const styles = {};
+import React from 'react';
+import Header from './Header';
 
 class Talks extends React.Component {
   render() {
@@ -15,4 +12,4 @@ class Talks extends React.Component {
   }
 }
 
-export default withStyles(styles)(Talks);
+export default Talks;

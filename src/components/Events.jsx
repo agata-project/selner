@@ -1,8 +1,5 @@
-import React from "react";
-import Header from "./Header";
-import { withStyles } from "@material-ui/core";
-
-const styles = {};
+import React from 'react';
+import Header from './Header';
 
 class Events extends React.Component {
   render() {
@@ -15,4 +12,4 @@ class Events extends React.Component {
   }
 }
 
-export default withStyles(styles)(Events);
+export default Events;
