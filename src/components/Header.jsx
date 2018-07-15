@@ -61,6 +61,15 @@ class Header extends React.Component {
           Bem vindo, fudido!
         </Typography>
         <Divider />
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemIcon>
+              <Icon style={styles.udescColor}>home</Icon>
+            </ListItemIcon>
+            <ListItemText primary="Início" />
+          </ListItem>
+        </Link>
+        <Divider />
         <Link to="/talks" style={{ textDecoration: "none" }}>
           <ListItem button>
             <ListItemIcon>
