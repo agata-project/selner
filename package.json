@@ -2,7 +2,8 @@
   "name": "selner",
   "description": "",
   "homepage": "https://agata-project.github.io/selner",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Carlos Eduardo Cuzik",
       "email": "carlos.cuzik@gmail.com",
       "url": "http://github.com/cuzik"
@@ -27,8 +28,12 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^1.3.1",
+    "@material-ui/icons": "^1.1.0",
+    "axios": "^0.18.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
